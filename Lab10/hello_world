@@ -1,0 +1,10 @@
+#!/bin/bash
+# Program: Hello World
+# Author: Angelo Erfe
+# Date: 10/29/23
+# Description: This script demonstrates a simple Bash script with an interpreter directive and a program header.
+
+# This is a comment 
+# I added some code below:
+
+echo "Hello, World!"

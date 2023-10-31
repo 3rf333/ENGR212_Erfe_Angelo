@@ -1,0 +1,5 @@
+if [[ $int1 -lt $int2 ]]; then
+    echo "int1 is less than int2"
+else
+    echo "int1 is not less than int2"
+fi

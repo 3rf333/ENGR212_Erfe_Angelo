@@ -1,0 +1,5 @@
+#!/bin/bash or #!/bin/sh
+str1="batman"
+str2="superman"
+$str1 = $str2
+

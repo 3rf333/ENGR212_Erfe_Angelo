@@ -1,0 +1,28 @@
+#!/bin/bash
+# Program: Problem 9
+# Author: Angelo Erfe
+# Date: October 29, 2023
+# Description: This script generates a random secret integer, asks the user to guess it, and provides hints.
+
+# Generate a random secret integer between 0 and 100 (inclusive)
+secretInt=$((0 + $RANDOM % 101))
+
+# Set guessedInt to a value outside the range of secretInt
+guessedInt=-1
+
+# Start the game loop
+while [ $guessedInt -ne $secretInt ]; do
+    echo "Guess the secret number! Enter a value between 0 and 100:"
+    
+    # Obtain input from the user
+    read guessedInt
+
+    if [ $guessedInt -eq $secretInt ]; then
+        echo "Congratulations! You guessed the correct number: $secretInt"
+    elif [ $guessedInt -lt $secretInt ]; then
+        echo "Try a higher number."
+    else
+        echo "Try a lower number."
+    fi
+done
+

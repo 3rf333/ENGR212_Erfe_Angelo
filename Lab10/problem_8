@@ -1,0 +1,29 @@
+#!/bin/bash
+# Program: Question 8
+# Author: Angelo Erfe
+# Date: 10/29/23
+# Description: Two integers, int1 and int2, are equal
+#int1 is less than int2
+#int1 is greater than int2
+
+# Test expression for two integers, int1 and int2, being equal
+if [[ $int1 -eq $int2 ]]; then
+    echo "int1 and int2 are equal"
+else
+    echo "int1 and int2 are not equal"
+fi
+# Test expression for int1 being less than int2
+
+if [[ $int1 -lt $int2 ]]; then
+    echo "int1 is less than int2"
+else
+    echo "int1 is not less than int2"
+fi
+# Test expression for int1 being greater than int2
+if [[ $int1 -gt $int2 ]]; then
+    echo "int1 is greater than int2"
+else
+    echo "int1 is not greater than int2"
+fi
+
+
