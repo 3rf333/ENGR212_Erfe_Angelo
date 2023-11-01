@@ -1,0 +1,15 @@
+  43  437 2291 Lyrics/thinkin_bout_me
+      0       0       0 Lyrics/Night
+  82  742 3761 Lyrics/all_my_life.txt
+0 0 0 Lyrics/barbie_error.log
+ 1  4 32 Lyrics/barbie_wc.txt
+  58  465 2337 Lyrics/barbie_world.txt
+  58  332 1606 Lyrics/flowers.pdf
+  53  353 1910 Lyrics/fukumean.pdf
+  45  367 1843 Lyrics/hey_driver.pdf
+  42  349 1543 Lyrics/need_a_favor.txt
+  88  742 3368 Lyrics/paint_the_town_red.txt
+  45  344 1708 Lyrics/religiously.txt
+  44  318 1648 Lyrics/rich_men_north_of_richmond
+  54  418 2037 Lyrics/snooze
+  43  437 2291 Lyrics/thinkin_bout_me
